@@ -1,10 +1,10 @@
 export default {
-  ssr: false,
+  ssr: true,
   /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: 'spa',
+  mode: 'universal',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -15,7 +15,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || 'production',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -62,16 +62,13 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: 
-        process.env.NODE_ENV === 'production'
-        ? 'http://localhost:8080'
-        : 'http://localhost:8080',
+    baseURL: 'https://fundingdana.my.id'
   },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  
+
   auth: {
     strategies: {
       local: {
@@ -92,7 +89,7 @@ export default {
         // tokenType: 'bearer',
         // globalToken: true,
         // autoFetchUser: true,
-      },    
+      },
     },
   },
   build: {},
