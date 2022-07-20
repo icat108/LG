@@ -2,12 +2,12 @@
   <div class="container mx-auto h-screen flex justify-center items-center">
     <div class="w-full lg:w-1/3 px-10 lg:px-0">
       <h2 class="font-medium mb-3 text-3xl text-center">
-        Oops. Something wrong!
+        Ups. Sesuatu yang salah!
       </h2>
       <p class="text-center font-light">
-        An error occured when processing your transaction.
+        Terjadi kesalahan saat memproses transaksi Anda.
         <br />
-        Please try again later.
+        Silakan coba lagi nanti.
       </p>
       <div class="mb-4 mt-6">
         <div class="mb-3">
@@ -15,7 +15,7 @@
             @click="$router.push({ path: '/' })"
             class="block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-4 text-lg rounded-full"
           >
-            Back to Home
+            Kembali
           </button>
         </div>
       </div>

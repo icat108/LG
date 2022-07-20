@@ -4,11 +4,11 @@
       <div class="flex justify-center items-center mx-auto mt-6 mb-8">
         <img src="/success-illustration.svg" alt="" class="w-full" />
       </div>
-      <h2 class="font-medium mb-3 text-3xl text-center">Welcome onboard!</h2>
+      <h2 class="font-medium mb-3 text-3xl text-center">Selamat Datang di Pendanaan-StartUp</h2>
       <p class="text-center font-light">
-        Your account just registered
+        Akun Anda baru saja terdaftar
         <br />
-        into our system
+        ke dalam sistem kami
       </p>
       <div class="mb-4 mt-6">
         <div class="mb-3">
@@ -16,7 +16,7 @@
             @click="$router.push({ path: '/' })"
             class="block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-4 text-lg rounded-full"
           >
-            Start Explore
+            Mulai Jelajahi
           </button>
         </div>
       </div>

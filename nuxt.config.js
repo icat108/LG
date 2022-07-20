@@ -1,10 +1,9 @@
 export default {
-  ssr: true,
   /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: 'universal',
+  mode: 'spa',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -14,18 +13,19 @@ export default {
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
    */
+
   head: {
-    title: process.env.npm_package_name || 'production',
+    title: process.env.npm_package_name || 'Pendanaan-StartUp',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: process.env.npm_package_description || 'Pendanaan-StartUp',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/akjsdakjdhkjahda1231987613218736aksdhaksjdhaud.ico' }],
   },
   /*
    ** Global CSS
@@ -62,7 +62,7 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: 'https://fundingdana.my.id'
+    baseURL: 'https://fundingdana.my.id',
   },
   /*
    ** Build configuration

@@ -13,7 +13,7 @@
       </div>
       <div class="flex justify-between items-center">
         <div class="w-3/4 mr-6">
-          <h3 class="text-2xl text-gray-900 mb-4">Campaign Details</h3>
+          <h3 class="text-2xl text-gray-900 mb-4">Detail Kampanye</h3>
         </div>
         <div class="w-1/4 text-right">
           <nuxt-link
@@ -40,13 +40,13 @@
                 {{ campaign.data.short_description }}
               </p>
               <p class="text-sm font-bold flex items-center mb-1 mt-4">
-                Description
+                Keterangan
               </p>
               <p class="text-gray-700 text-base">
                 {{ campaign.data.description }}
               </p>
               <p class="text-sm font-bold flex items-center mb-1 mt-4">
-                What Will Funders Get
+                Apa yang Akan Didapatkan Pemberi Dana ?
               </p>
               <ul class="list-disc ml-5">
                 <li v-for="perk in campaign.data.perks" :key="perk">
@@ -54,7 +54,7 @@
                 </li>
               </ul>
               <p class="text-sm font-bold flex items-center mb-1 mt-4">
-                Goal Amount
+                Jumlah tujuan yang di butuhkan
               </p>
               <p class="text-4xl text-gray-700 text-base">
                 {{ new Intl.NumberFormat().format(campaign.data.goal_amount) }}
@@ -65,7 +65,7 @@
       </div>
       <div class="flex justify-between items-center">
         <div class="w-2/4 mr-6">
-          <h3 class="text-2xl text-gray-900 mb-4 mt-5">Gallery</h3>
+          <h3 class="text-2xl text-gray-900 mb-4 mt-5">Galeri</h3>
         </div>
         <div class="w-2/4 text-right">
           <input
@@ -78,7 +78,7 @@
             @click="upload"
             class="bg-green-button hover:bg-green-button text-white font-bold px-4 py-2 rounded inline-flex items-center"
           >
-            Upload
+            Mengunggah
           </button>
         </div>
       </div>
@@ -99,7 +99,7 @@
       </div>
       <div class="flex justify-between items-center">
         <div class="w-3/4 mr-6">
-          <h3 class="text-2xl text-gray-900 mb-4 mt-5">Transaction History</h3>
+          <h3 class="text-2xl text-gray-900 mb-4 mt-5">History Transaksi</h3>
         </div>
       </div>
       <div class="block mb-2">

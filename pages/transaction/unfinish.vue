@@ -2,18 +2,16 @@
   <div class="container mx-auto h-screen flex justify-center items-center">
     <div class="w-full lg:w-1/3 px-10 lg:px-0">
       <h2 class="font-medium mb-3 text-3xl text-center">
-        Transaction unfinished.
+        Transaksi belum selesai.
       </h2>
-      <p class="text-center font-light">
-        Your transaction is cancelled.
-      </p>
+      <p class="text-center font-light">Transaksi Anda dibatalkan.</p>
       <div class="mb-4 mt-6">
         <div class="mb-3">
           <button
             @click="$router.push({ path: '/' })"
             class="block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-4 text-lg rounded-full"
           >
-            Fund Other Project
+            Mendanai Proyek Lainnya
           </button>
         </div>
       </div>

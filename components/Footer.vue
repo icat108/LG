@@ -3,18 +3,14 @@
     <div class="container mx-auto">
       <div class="sm:flex mb-4">
         <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
-          <img src="/logo-footer.svg" alt="" class="mb-3" />
+          <!-- <img src="/logo.svg" alt="" class="mb-3" /> -->
           <p class="font-light">
             Membantu Dan Menjalankan <br />Program - Program terbaik anak bangsa
           </p>
         </div>
         <div class="sm:w-1/1 h-auto">
-          <div class="mb-8 font-bold">Explore</div>
+          <div class="mb-8 font-bold"></div>
           <ul class="font-light">
-            <!-- <li class="mb-3">Our Services</li>
-            <li class="mb-3">Equity System</li>
-            <li class="mb-3">Refund</li>
-            <li class="mb-3">Shareholder</li> -->
             <li class="mb-3"><a href="#projects">Project</a></li>
             <li class="mb-3"><a href="#features">Features</a></li>
             <li class="mb-3">
@@ -22,11 +18,10 @@
                 >Top Startups Indonesia</a
               >
             </li>
-            <!-- <li class="mb-3"><a href="#testimonials">Testimonials</a></li> -->
           </ul>
         </div>
         <div class="sm:w-1/5 h-auto">
-          <div class="mb-8 font-bold">Investor</div>
+          <div class="mb-8 font-bold"></div>
           <ul class="font-light">
             <!-- <li class="mb-3">Login</li> -->
             <li class="mb-3">
@@ -37,22 +32,30 @@
             </li>
 
             <!-- <li class="mb-3">Top Startups</li> -->
-            <li class="mb-3">How-to Tutorials</li>
+            <!-- <li class="mb-3">How-to Tutorials</li> -->
             <!-- <li class="mb-3">Withdrawl</li> -->
           </ul>
         </div>
         <div class="sm:w-1/4 h-auto">
           <div class="mb-8 font-bold">Office</div>
           <ul class="font-light">
-            <li class="mb-3">+62812 9293 1896</li>
+            <li class="mb-3">+62 812 9293 1896</li>
             <li class="mb-3">
-              SCBD, Treasury Tower, 10th Floor, Unit A District 8, Jl. Jenderal Sudirman, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190
+              SCBD, Treasury Tower, 10th Floor, Unit A District 8, Jl. Jenderal
+              Sudirman, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta
+              Selatan, Daerah Khusus Ibukota Jakarta 12190
             </li>
             <li class="mb-3">No.12 (Backer)</li>
-            <li class="mb-3">support@backer.id</li>
+            <li class="mb-3">pendanaan-startup@ricad-store.my.id</li>
           </ul>
         </div>
       </div>
+    </div>
+    <!-- <div class="mb-8 font-semibold" align="center" >Copyright © 2022 Ricad-Store All Rights Reserved</div> -->
+    <div class="mb-8 font-light" align="center">
+      <a href="https://ricadagussetiawan.vercel.app"
+        >Copyright © 2022 ricad-store.my.id All Rights Reserved</a
+      >
     </div>
   </footer>
 </template>

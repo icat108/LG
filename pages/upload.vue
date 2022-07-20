@@ -23,7 +23,7 @@
       <h2 class="font-normal mb-3 text-3xl text-white text-center">
         Hi, {{ this.$store.state.auth.user.name }}
       </h2>
-      <p class="text-white text-center font-light">Please upload your selfie</p>
+      <p class="text-white text-center font-light">Silakan unggah selfie Anda</p>
       <div class="mb-4 mt-6">
         <div class="mb-3">
           <button
@@ -34,18 +34,13 @@
             "
             class="block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-4 text-lg rounded-full"
           >
-            Sign Up Now
+            Daftar sekarang
           </button>
         </div>
       </div>
       <div>
         <div class="mb-4">
-          <button
-            @click="$router.push({ path: '/register-success' })"
-            class="block w-full bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light px-6 py-4 text-lg rounded-full"
-          >
-            Skip
-          </button>
+        
         </div>
       </div>
     </div>

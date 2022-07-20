@@ -37,8 +37,8 @@
             class="bg-white w-full p-5 border border-gray-400 rounded-20 sticky"
             style="top: 15px"
           >
-            <h3>Project Leader:</h3>
-
+            <!-- <h3>this edit for Pemimpin Proyek</h3> -->
+            <h3 class="mt-5 font-semibold">Pemimpin Proyek:</h3>
             <div class="flex mt-3">
               <div class="w-1/4">
                 <img
@@ -53,13 +53,13 @@
                 <div class="font-semibold text-xl text-gray-800">
                   {{ campaign.data.user.name }}
                 </div>
-                <div class="font-light text-md text-gray-400">
-                  {{ campaign.data.backer_count }} backer
+                <div class="font-semibold text-md text-gray-500">
+                  {{ campaign.data.backer_count }} Investor
                 </div>
               </div>
             </div>
 
-            <h4 class="mt-5 font-semibold">What will you get:</h4>
+            <h4 class="mt-5 font-semibold">Apa yang akan Anda dapatkan:</h4>
             <ul class="list-check mt-3">
               <li v-for="perk in campaign.data.perks" :key="perk">
                 {{ perk }}
@@ -78,7 +78,7 @@
                 @click="fund"
                 class="mt-3 button-cta block w-full bg-orange-button hover:bg-green-button text-white font-medium px-6 py-3 text-md rounded-full"
               >
-                Fund Now
+                Danai Sekarang
               </button>
             </template>
             <template v-else>
@@ -86,7 +86,7 @@
                 @click="$router.push({ path: '/login' })"
                 class="mt-3 button-cta block w-full bg-orange-button hover:bg-green-button text-white font-medium px-6 py-3 text-md rounded-full"
               >
-                Sign in to Fund
+                Masuk Dan Mulai Mendanai
               </button>
             </template>
           </div>

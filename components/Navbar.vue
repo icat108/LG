@@ -1,7 +1,7 @@
 <template>
   <header class="flex items-center">
     <div style="height: 54px" class="pr-5">
-      <img src="/logo.svg" alt="logo" class="h-full" />
+      <!-- <img src="/logo.svg" alt="logo" class="h-full" /> -->
     </div>
     <ul class="flex items-center">
       <li>
@@ -12,24 +12,32 @@
           Home
         </nuxt-link>
       </li>
-      <li>
+      <!-- <li>
         <a
           class="text-white hover:text-teal-500 text-lg px-4 py-3"
           href="#projects"
           >Project</a
         >
+      </li> -->
+<li>
+        <nuxt-link
+          class="text-white hover:text-teal-500 text-lg px-4 py-3"
+          to="/#projects"
+        >
+          Projects
+        </nuxt-link>
       </li>
       <li>
         <a
           class="text-white hover:text-teal-500 text-lg px-4 py-3"
-          href="#features"
+          href="/#features"
           >Features</a
         >
       </li>
       <li>
         <a
           class="text-white hover:text-teal-500 text-lg px-4 py-3"
-          href="#testimonials"
+          href="/#testimonials"
           >Testimonials</a
         >
       </li>
@@ -43,7 +51,8 @@
           to="/register"
           class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full mr-4"
         >
-          Sign Up
+          Daftar
+          
         </nuxt-link>
       </li>
       <li>
@@ -51,7 +60,7 @@
           to="/login"
           class="inline-block bg-transparent border-white border hover:bg-white hover:bg-opacity-25 text-white font-light w-40 text-center px-6 py-1 text-lg rounded-full"
         >
-          Login
+          Masuk
         </nuxt-link>
       </li>
     </ul>
@@ -88,21 +97,21 @@
             <nuxt-link
               class="bg-white hover:bg-gray-100 hover:text-orange-500 py-2 px-4 block whitespace-no-wrap"
               to="/dashboard"
-              >My Dashboard</nuxt-link
+              >Dasbor saya</nuxt-link
             >
           </li>
           <li class="">
             <nuxt-link
               class="bg-white hover:bg-gray-100 border-t hover:text-orange-500 py-2 px-4 block whitespace-no-wrap"
               to="/dashboard"
-              >Account Settings</nuxt-link
+              >Pengaturan akun</nuxt-link
             >
           </li>
           <li class="">
             <a
               class="cursor-pointer rounded-b bg-white hover:bg-gray-100 border-t hover:text-orange-500 py-2 px-4 block whitespace-no-wrap"
               @click="logout()"
-              >Logout</a
+              >Keluar</a
             >
           </li>
         </ul>

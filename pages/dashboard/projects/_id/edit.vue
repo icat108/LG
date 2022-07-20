@@ -14,7 +14,7 @@
       <div class="flex justify-between items-center">
         <div class="w-3/4 mr-6">
           <h3 class="text-2xl text-gray-900 mb-4">
-            Edit Campaign "{{ campaign.data.name }}"
+            Edit Kampanye "{{ campaign.data.name }}"
           </h3>
         </div>
         <div class="w-1/4 text-right">
@@ -22,7 +22,7 @@
             @click="save"
             class="bg-green-button hover:bg-green-button text-white font-bold px-4 py-1 rounded inline-flex items-center"
           >
-            Save
+            Simpan
           </button>
         </div>
       </div>
@@ -37,7 +37,7 @@
                   <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   >
-                    Campaign Name
+                    Nama Kampanye
                   </label>
                   <input
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -50,7 +50,7 @@
                   <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   >
-                    Price
+                    Harga
                   </label>
                   <input
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -63,7 +63,7 @@
                   <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 mt-3"
                   >
-                    Short Description
+                    Deskripsi Singkat
                   </label>
                   <input
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -76,7 +76,7 @@
                   <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   >
-                    What will backers get
+                    Apa yang akan didapatkan di pendanaan
                   </label>
                   <input
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
@@ -89,7 +89,7 @@
                   <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                   >
-                    Description
+                    Keterangan
                   </label>
                   <textarea
                     class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"

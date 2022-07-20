@@ -146,7 +146,7 @@
               "
               class="mt-100 button-cta block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-1 text-lg rounded-full"
             >
-              Fund Now
+              Danai Sekarang
             </button>
           </div>
         </div>
@@ -156,8 +156,8 @@
       <div class="flex justify-between items-center">
         <div class="w-auto">
           <h2 class="text-3xl text-gray-900 mb-8">
-            See What Our <br />
-            Happy Clients Say
+            Lihat Apa Kami <br />
+            Klien yang Senang dengan Pendanaan-StartUp
           </h2>
         </div>
       </div>
@@ -167,7 +167,7 @@
         </div>
         <div class="w-8/12 mt-16">
           <h2 class="text-3xl text-gray-900 font-light">
-            “Pendanaan di Bucker sangat mudah dan nyaman. <br />
+            “Pendanaan-StartUp sangat mudah dan nyaman. <br />
             Hanya perlu mencari ide, klik dan sudah mendanai.”
           </h2>
           <div class="testimonial-info mt-8">

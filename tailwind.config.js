@@ -6,6 +6,7 @@
  */
 module.exports = {
   theme: {
+    
     extend: {
       boxShadow: {
         outline: '0 0 0 1px rgba(66, 153, 225, 0.5)',

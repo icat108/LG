@@ -1,5 +1,5 @@
 {
-  "name": "richs-startup",
+  "name": "pendanaan-startup",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -21,8 +21,10 @@
     "@nuxtjs/tailwindcss": "^2.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "fibers": "^5.0.1",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
-    "sass-loader": "^10.0.1"
+    "sass": "^1.53.0",
+    "sass-loader": "^10.3.1"
   }
 }

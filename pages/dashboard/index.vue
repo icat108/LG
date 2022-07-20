@@ -11,14 +11,14 @@
           <h2 class="text-4xl text-gray-900 mb-2 font-medium">Dashboard</h2>
           <ul class="flex mt-2">
             <li class="mr-6">
-              <a class="text-gray-800 font-bold" href="#"> Your Projects </a>
+              <a class="text-gray-800 font-bold" href="#"> Proyek Anda </a>
             </li>
             <li class="mr-6">
               <nuxt-link
                 class="text-gray-500 hover:text-gray-800"
                 to="/dashboard/transactions"
               >
-                Your Transactions
+                Transaksi Anda
               </nuxt-link>
             </li>
           </ul>
@@ -28,7 +28,7 @@
             to="/dashboard/projects/create"
             class="bg-orange-button hover:bg-green-button text-white font-bold py-4 px-4 rounded inline-flex items-center"
           >
-            + Create Campaign
+            + Buat Kampanye
           </nuxt-link>
         </div>
       </div>

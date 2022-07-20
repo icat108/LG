@@ -5,10 +5,10 @@
         <img src="/404-illustration.svg" alt="" class="w-full" />
       </div>
       <h2 class="font-medium mb-3 text-3xl text-center">
-        Oops! something wrong
+        Ups! sesuatu yang salah
       </h2>
       <p class="text-center font-light" v-if="error.statusCode === 404">
-        The page that you requsted doesn’t
+        Halaman yang Anda minta tidak ada
         <br />
         exist at this moment
       </p>
